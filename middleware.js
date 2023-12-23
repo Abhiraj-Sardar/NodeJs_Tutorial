@@ -27,7 +27,7 @@ app.get("/",function(req,res){
 //middleware 
 app.use(function(req,res,next){
     console.log("Middleware 1");
-    next();//used to call to the next middleware right after this
+    next();//used to call to the next middleware right after this . if that is not available then to call the route
 });
 
 //for home directory

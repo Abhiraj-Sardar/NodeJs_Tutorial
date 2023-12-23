@@ -3,3 +3,4 @@ run the code at console by writting => node .\<file name>
 figlet project
 express => it is used for routing
 middleware
+dynamic routing
