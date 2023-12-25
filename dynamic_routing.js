@@ -14,4 +14,3 @@ app.get("/profile/:username",function(req,res){ //here username after colon ":" 
 }); 
 
 app.listen(3000);
-//51:48
