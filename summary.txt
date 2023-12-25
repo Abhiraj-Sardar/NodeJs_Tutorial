@@ -20,3 +20,16 @@ template engines
 3.configure the express static in index.ejs file
 4.understand the path
 
+express generator=>it is used to generate the file structure for a project so that the programmer don't need to waste his time on project setup
+steps to use express generator---
+npm i express-generator -g
+to create new app anywhere:
+open cmd move to desktop
+create new app:
+express appname --view=ejs
+now use 2 commands:
+cd appname
+npm i
+open it on vscode 
+
+25:22
