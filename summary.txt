@@ -33,7 +33,6 @@ npm i
 open it on vscode 
 
 by the above things we have created demoproject please refer to that directory for better understanding of express generator 
-25:22
 
 Database--
 ----------------------------
@@ -48,8 +47,20 @@ Collection => this are the tables inside the Database
 Document => a particular collection(table) in a Database is a Document
 
 setup mongoDb:
-install mongoDb
-install mongoosejs
+install mongoDb 
+install mongoosejs (by writting-- npm i mongoose)
 require and setup connection
 make Schema
 create model and export
+
+to understand database connection with mongodb refer users.js available demoproject=>routes=>users.js
+
+session & cookies
+client(frontend)(browser) uses cookie whereas server uses session
+session--
+install session-- npm i express-session
+
+flash messages are just like of warning messages or alerts
+install flash -- npm i connect-flash
+make sure you put connect flash in a app.use function
+12:07
