@@ -32,4 +32,24 @@ cd appname
 npm i
 open it on vscode 
 
+by the above things we have created demoproject please refer to that directory for better understanding of express generator 
 25:22
+
+Database--
+----------------------------
+Code Side => mongoDb Side
+----------------------------
+DB setup     DB Formation
+Model        Collection(Table)
+Schema       Documents
+
+Model => collection of Collections(Tables) within a Database are known as Model
+Collection => this are the tables inside the Database
+Document => a particular collection(table) in a Database is a Document
+
+setup mongoDb:
+install mongoDb
+install mongoosejs
+require and setup connection
+make Schema
+create model and export
