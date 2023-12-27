@@ -60,7 +60,27 @@ client(frontend)(browser) uses cookie whereas server uses session
 session--
 install session-- npm i express-session
 
-flash messages are just like of warning messages or alerts
+for understanding flash msg please refer endgm2 project:
+flash messages are just like of warning messages or alerts that are created in another routes and used in another route
 install flash -- npm i connect-flash
 make sure you put connect flash in a app.use function
-12:07
+you can create flash in any route
+
+intermediate mongodb(please refer endgm2 project):
+Q1.How can I perform a case insensitive search in mongoose?
+steps:
+setup mongoose
+go to users.js under routes in endgm2 
+
+regex:
+^ => starting must be like this
+^hello$ => starts from hello and end with hello i.e,exact hello word
+$ => end must be like this
+
+
+Authentication & Authorization(please refer endgm2 project)---
+install these packages:
+ npm i passport passport-local passport-local-mongoose mongoose express-session
+write app.js code first in app.js file and write it after view engine and before logger
+setup users.js then properly
+in index.js try register first and then other codes as well
