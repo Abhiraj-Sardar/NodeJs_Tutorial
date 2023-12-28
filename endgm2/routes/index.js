@@ -2,7 +2,7 @@
 //flash message allows you to use one routes data to another route
 var express = require('express');
 var router = express.Router();
-const userModel=require("./users");//including database connection
+
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -79,6 +79,7 @@ router.get("/length",async function(req,res){
   }); 
   res.send(User);
 });
+
 
 
 module.exports = router;

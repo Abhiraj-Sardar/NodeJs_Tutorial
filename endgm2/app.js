@@ -8,6 +8,7 @@ const flash = require("connect-flash");//for flash msg
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const passport = require('passport');//for authentication
 
 var app = express();
 
@@ -20,6 +21,7 @@ app.use(expressSession({ //for flash msg
   saveUninitialized:false,
   secret:"hello hello"
 }));
+
 
 app.use(flash());//for flash msg
 
